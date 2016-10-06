@@ -1,0 +1,21 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body 
+{ 
+	font: 1.8em Helvetica, comic;
+	background-color: white;
+}
+form { background: white; padding: 3px; position: fixed; bottom: 0; width: 100%; border-style:solid;border-radius: 10px; border-color: orange;border-width: 6px;}
+form input { border: 0; padding: 10px; width: 90%; margin-right: .5%; }
+form #button { color:#FFF; background: #2D9F0B; border: 4px; padding: 10px; margin-bottom: 4px;  width: 9%; border-width: 5px; }
+#messages { list-style-type: none; margin: 10; padding: 10; }
+#messages li { padding: 5px 10px; }
+#messages li:nth-child(even) {text-align:center;background: white; }
+#notifyUser { right; bottom: 42px; width: 100%; }
+#sp
+{
+	font-color:orange;
+	font-family:verdana;
+
+}
+
+/* Reference: http://javabeginnerstutorial.com/javascript-2/create-simple-chat-application-using-node-js-express-js-socket-io/ */
